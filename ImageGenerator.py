@@ -4,7 +4,7 @@ from openai import OpenAI
 from PIL import Image, ImageDraw
 from io import BytesIO
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key=OPENAI_KEY)
 
 # Variablen: 
 #   n: 1<=n<=10
